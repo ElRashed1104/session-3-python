@@ -1,0 +1,20 @@
+# task 3 
+temp = input("inter the tempreature degree")
+temp1=int(temp)
+if temp1 >= 30 :
+    print("it's a hot day , stay hydrated")
+elif temp1 >=20 and temp1 <=29 :
+    print("it's a warm  day , engoy the wether ! ")
+elif temp1 >=10 and temp1 <19 :
+    print("it's cool day . wear a jacket !")
+elif temp1 < 10 :
+    print("it's cool day . stay warm !")
+# for 
+li = [0 , 1 , 2 ,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
+
+for i in range(len(li)) :
+    if i % 3 == 0 :
+        f = i/3 
+        print(li[i] , " is divisible by 3 and = " , f ) 
+    else :
+        print(li[i] , "is nodivisible by 3")
